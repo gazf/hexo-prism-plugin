@@ -2,8 +2,13 @@
 
 const fs = require('hexo-fs');
 const path = require('path');
-const Prism = require('node-prismjs');
 const dirResolve = require('dir-resolve');
+
+const PrismPath = 'prismjs/components/';
+const Prism = require(PrismPath + 'prism-core');
+const PrismLoadLanguages = require(PrismPath + 'index');
+// load all languages
+PrismLoadLanguages();
 
 const map = {
   '&#39;': '\'',
