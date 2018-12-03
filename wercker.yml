@@ -5,4 +5,7 @@ build:
     - script:
         name: Test
         code: |
+          apk update
+          apk upgrade
+          apk add --no-cache bash git openssh
           npm install
