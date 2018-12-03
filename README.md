@@ -1,4 +1,4 @@
-# Hexo-Prism-Plugin [![NPM](https://img.shields.io/npm/dm/hexo-prism-plugin.svg)](https://www.npmjs.com/package/hexo-prism-plugin)
+# Hexo-Prism-Plugin [![NPM](https://img.shields.io/npm/dm/hexo-prism-plugin.svg)](https://www.npmjs.com/package/hexo-prism-plugin) [![Greenkeeper badge](https://badges.greenkeeper.io/gazf/hexo-prism-plugin.svg)](https://greenkeeper.io/)
 Since `highlight.js` didn't support JSX syntax properly, I wrote this plugin to replace
 Hexo's default code highlight plugin.
 
