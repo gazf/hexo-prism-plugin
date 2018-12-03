@@ -1,10 +1,13 @@
-# Hexo-Prism-Plugin [![NPM](https://img.shields.io/npm/dm/hexo-prism-plugin.svg)](https://www.npmjs.com/package/hexo-prism-plugin) [![Greenkeeper badge](https://badges.greenkeeper.io/gazf/hexo-prism-plugin.svg)](https://greenkeeper.io/)
+# Hexo-Prism-Plugin 
+[![Greenkeeper badge](https://badges.greenkeeper.io/gazf/hexo-prism-plugin.svg)](https://greenkeeper.io/)
+[![wercker status](https://app.wercker.com/status/ff2e8c7215132f9a4b98ab521c76b26b/s/master "wercker status")](https://app.wercker.com/project/byKey/ff2e8c7215132f9a4b98ab521c76b26b)
+
 Since `highlight.js` didn't support JSX syntax properly, I wrote this plugin to replace
 Hexo's default code highlight plugin.
 
 ## Install
 ```
-npm i -S hexo-prism-plugin
+npm i -S gazf/hexo-prism-plugin
 ```
 ## Usage
 Firstly, you should edit your `_config.yml` by adding following configuration.
